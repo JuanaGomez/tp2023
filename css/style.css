@@ -24,6 +24,10 @@ COLORES
  #f4afd5  #fbe7f0  #d27caa  #e291bf  #d58fb2  #c29cb1  #c84a90  #f6cfe3 
 */
 
+body{
+    background-color:#FBE7EF;
+}
+
 header {
     height: 80px;
     width: 100%;
