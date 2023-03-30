@@ -48,7 +48,6 @@ footer {
 }
 
 .contenedor {
-    height: 800px;
     width: 80%;
     margin: auto;
     background-color: #FBE7EF;
@@ -71,6 +70,9 @@ footer {
 }
 .center{
     text-align: center;
+}
+.padding{
+    padding: 10px;
 }
     
 .fila .tarjeta {
