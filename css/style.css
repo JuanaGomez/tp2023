@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Merriweather', serif;
+    transition: all 0,3s;
 }
 
 /*--TIPOGRAFIAS--*/
@@ -112,3 +113,25 @@ footer {
     line-height: 14pt;
     margin-top: 10px;
 }
+
+
+/*--ACA VAN ESTAR LAS PROPIEDADES PARA QUE SE VEA LINDO EN EL CELU--*/
+@media screen and (max-width:992px) {
+    .fila .tarjeta{
+        width: 100%;
+    }    
+    .flex{
+        flex-direction: column;
+        gap:30px
+    }
+    footer{
+        font-size: smaller;
+    }
+
+}
+
+
+
+
+
+
