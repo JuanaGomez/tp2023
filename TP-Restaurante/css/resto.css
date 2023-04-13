@@ -47,7 +47,7 @@
     background-size: cover;
     background-position: center;
     /* para oscurecer la imagen de fondo */
-    box-shadow: inset 0 0 200px black;
+    box-shadow: inset 0 0 250px black;
 }
 
 .bienvenida {
