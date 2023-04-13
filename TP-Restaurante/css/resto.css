@@ -115,10 +115,19 @@ no al texto que se escriba adentro */
     background-color: antiquewhite;
     height: 120px;
     margin-top: 20px;
-    
+    display: flex;
+    align-items: center;    
+}
+.categorias ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
 }
 
-
-
+.categorias ul li{
+    flex: 0 0 120px;
+    background-color: rgb(219, 175, 116);
+}
 
 
