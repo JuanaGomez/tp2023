@@ -41,7 +41,13 @@
     color: aliceblue;
     position: relative;
     padding: 7%;
+    /* imagen */
     background-image: url(../img/Restaurant_Näsinneula.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* para oscurecer la imagen de fondo */
+    box-shadow: inset 0 0 200px black;
 }
 
 .bienvenida {
