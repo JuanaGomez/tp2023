@@ -41,6 +41,7 @@
     color: aliceblue;
     position: relative;
     padding: 7%;
+    background-image: url(../img/Restaurant_Näsinneula.jpg);
 }
 
 .bienvenida {
@@ -59,6 +60,8 @@
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 20px 20px -10px rgba(0, 0, 0, 0.425);
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .busqueda .icono {
@@ -74,8 +77,12 @@
     height: 100%;
     width: calc(100% - 120px);
     border:0;
-    font-size: 14pt;
+    font-size: 12pt;
     padding: 15px;   
+}
+.busqueda input[type="search"]:focus{
+  outline: 0;
+  font-size: 14pt;
 }
 /*Para poner color al texto adentro del la caja de busqueda pero 
 no al texto que se escriba adentro */
@@ -90,7 +97,11 @@ no al texto que se escriba adentro */
     border: 0;
     font-size: 26pt!important;
 }
-
+/* para hacerle un efecto */
+.busqueda input[type="submit"]:active{
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.160);
+    font-size: 22pt!important;
+}
 
 
 
