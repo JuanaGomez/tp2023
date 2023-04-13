@@ -11,39 +11,45 @@
     font-family: 'Merriweather', serif;
     font-weight: 300;
 }
-.alkatra{
-    font-family: 'Alkatra', cursive!important;
+
+.alkatra {
+    font-family: 'Alkatra', cursive !important;
     font-weight: 300;
 }
 
 /*--ORGANIZACION--*/
-.flex{
+.flex {
     display: flex;
 }
-.sb{
+
+.sb {
     justify-content: space-around;
 }
-.ptext{
+
+.ptext {
     padding: 10px;
 }
-.center{
+
+.center {
     text-align: center;
 }
-   
 
-.portada{
+
+.portada {
     height: 350px;
     background-color: rgb(199, 115, 178);
     color: aliceblue;
     position: relative;
     padding: 7%;
 }
-.bienvenida{
+
+.bienvenida {
     position: absolute;
     bottom: 70px;
     line-height: 26pt;
 }
-.busqueda{
+
+.busqueda {
     height: 60px;
     width: 86%;
     bottom: -20px;
@@ -55,10 +61,37 @@
     box-shadow: 0 20px 20px -10px rgba(0, 0, 0, 0.425);
 }
 
-.busqueda .icono{
+.busqueda .icono {
     height: 100%;
     width: 60px;
     background-color: rgb(165, 223, 203);
     text-align: center;
     line-height: 60px;
+    font-size: 26pt!important;
 }
+
+.busqueda input[type="search"]{
+    height: 100%;
+    width: calc(100% - 120px);
+    border:0;
+    font-size: 14pt;
+    padding: 15px;   
+}
+/*Para poner color al texto adentro del la caja de busqueda pero 
+no al texto que se escriba adentro */
+.busqueda input[type="search"]::placeholder{
+    color: gray;
+}
+
+.busqueda input[type="submit"]{
+    height: 60px;
+    width: 60px;
+    background-color: transparent;
+    border: 0;
+    font-size: 26pt!important;
+}
+
+
+
+
+
