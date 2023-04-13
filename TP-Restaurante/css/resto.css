@@ -136,7 +136,7 @@ no al texto que se escriba adentro */
 
 .categorias{
     height: 120px;
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     align-items: center;    
 }
@@ -150,6 +150,7 @@ no al texto que se escriba adentro */
 }
 
 .categorias ul li{
+    height: 80px;
     text-align: center;
     display: flex;
     flex-direction: column;
