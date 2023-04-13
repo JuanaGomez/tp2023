@@ -86,7 +86,6 @@
     border:0;
     font-size: 13pt;
     padding: 15px;   
-    font-family: 'Alkatra', cursive !important;
 }
 .busqueda input[type="search"]:focus{
   outline: 0;
@@ -112,7 +111,6 @@ no al texto que se escriba adentro */
 }
 
 .categorias{
-    background-color: antiquewhite;
     height: 120px;
     margin-top: 20px;
     display: flex;
@@ -133,7 +131,7 @@ no al texto que se escriba adentro */
     flex-direction: column;
     gap: 10px;
     flex: 0 0 120px;
-    background-color: rgb(219, 175, 116);
+
 }
 
 
