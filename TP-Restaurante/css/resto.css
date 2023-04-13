@@ -119,13 +119,19 @@ no al texto que se escriba adentro */
     align-items: center;    
 }
 .categorias ul{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     list-style: none;
     gap: 10px;
+    overflow-x: scroll;
 }
 
 .categorias ul li{
+    font-family: 'Alkatra', cursive !important;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
     flex: 0 0 120px;
     background-color: rgb(219, 175, 116);
 }
