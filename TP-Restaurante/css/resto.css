@@ -41,6 +41,7 @@
     color: aliceblue;
     position: relative;
     padding: 7%;
+    font-size: 18px;
     /* imagen */
     background-image: url(../img/Restaurant_Näsinneula.jpg);
     background-repeat: no-repeat;
