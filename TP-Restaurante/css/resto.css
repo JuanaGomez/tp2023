@@ -6,6 +6,30 @@
     box-sizing: border-box;
 }
 
+/*CONTENEDOR SCROLLBAR*/
+::-webkit-scrollbar {
+    height: 5px; /*scroll horizontal*/
+    width: 2px; /*scroll vertical*/
+    border-radius: 5px;
+}
+
+/* FONDO BARRA SCROLL*/
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /*scroll color de fondo*/
+
+}
+
+/* SELECTOR */
+::-webkit-scrollbar-thumb {
+    background: rgb(109, 223, 185); /*scroll cuando no le hacen click*/
+    border-radius: 5px;
+}
+
+/* SELECTOR hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(84, 171, 142); /*scroll cuando le hacen click*/
+}
+
 /*--TIPOGRAFIAS--*/
 .merri {
     font-family: 'Merriweather', serif;
@@ -131,7 +155,7 @@ no al texto que se escriba adentro */
     flex-direction: column;
     gap: 10px;
     flex: 0 0 120px;
-
 }
+
 
 
