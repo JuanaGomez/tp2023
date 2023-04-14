@@ -59,7 +59,7 @@
 }
 
 .med{
-    font-size: 18pt!important;
+    font-size: 20pt!important;
 }
 
 .portada {
@@ -138,10 +138,10 @@ no al texto que se escriba adentro */
 }
 
 .categorias{
-    height: 120px;
-    margin-top: 30px;
+    height: 110px;
+    margin-top: 40px;
     display: flex;
-    align-items: center;    
+    align-items: center;  
 }
 .categorias ul{
     height: 100%;
