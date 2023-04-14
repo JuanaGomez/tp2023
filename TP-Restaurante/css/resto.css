@@ -21,13 +21,13 @@
 
 /* SELECTOR */
 ::-webkit-scrollbar-thumb {
-    background: rgb(109, 223, 185); /*scroll cuando no le hacen click*/
+    background: rgb(165, 223, 203); /*scroll cuando no le hacen click*/
     border-radius: 5px;
 }
 
 /* SELECTOR hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(84, 171, 142); /*scroll cuando le hacen click*/
+    background: rgb(100, 190, 160); /*scroll cuando le hacen click*/
 }
 
 /*--TIPOGRAFIAS--*/
