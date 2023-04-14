@@ -182,11 +182,11 @@ no al texto que se escriba adentro */
 .resto .imgresto{
     height: 100%;
     width: 40%;
+    background-color: rgb(224, 153, 66);
     background-image: url(../img/Restaurant_Näsinneula.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    background-color: rgb(224, 153, 66);
+    background-position: center;   
 }
 
 .resto .datosresto{
