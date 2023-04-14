@@ -168,3 +168,29 @@ no al texto que se escriba adentro */
     color: gray;
 }
 
+.productos{
+    background-color: antiquewhite;
+    padding: 10px;
+}
+.resto{
+    display: flex;
+    height: 200px;
+    width: 100%; 
+    background-color: aquamarine;
+}
+
+.resto .imgresto{
+    height: 100%;
+    width: 40%;
+    background-image: url(../img/Restaurant_Näsinneula.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(224, 153, 66);
+}
+
+.resto .datosresto{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(160, 125, 83);
+}
