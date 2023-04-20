@@ -177,6 +177,13 @@ no al texto que se escriba adentro */
     background-color: white;
     padding: 10px;
 }
+
+.listaresto{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .resto{
     display: flex;
     height: 200px;
