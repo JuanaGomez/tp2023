@@ -181,7 +181,7 @@ no al texto que se escriba adentro */
 .listaresto{
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 20px;
 }
 
 .resto{
@@ -196,7 +196,7 @@ no al texto que se escriba adentro */
     height: 100%;
     width: 40%;
     background-color: rgb(224, 153, 66);
-    background-image: url(../img/Harpers_Bazaar.jpeg);
+    /* background-image: url(../img/Harpers_Bazaar.jpeg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;   
@@ -230,20 +230,18 @@ no al texto que se escriba adentro */
 
 .puntuacion{
     position: absolute;
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     color: white;
     text-align: center;
-    line-height: 60px;
-    font-size: 18pt;
+    line-height: 50px;
+    font-size: 15pt;
     background-color: rgb(165, 223, 203);
     right: -10px;
     top: -10px;
     border-start-start-radius: 15px;
     border-end-end-radius: 15px;
 }
-
-
 
 
 
