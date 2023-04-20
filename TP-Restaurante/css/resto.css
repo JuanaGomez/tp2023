@@ -180,7 +180,7 @@ no al texto que se escriba adentro */
 
 .listaresto{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 15px;
 }
 
