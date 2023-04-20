@@ -201,6 +201,11 @@ no al texto que se escriba adentro */
     background-size: cover;
     background-position: center;   
 }
+.resto img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
 
 .resto .datosresto{
     position: relative;
