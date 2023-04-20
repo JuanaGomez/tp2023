@@ -58,7 +58,7 @@
 }
 
 #imagen {
-    background-image: url(../img/imagenvioleta.jpg);
+    background-image: url(imagenvioleta.jpg);
     background-size: cover;
     background-position: center;
     /* background-repeat:no-repeat ;*/
