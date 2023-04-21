@@ -280,11 +280,10 @@ no al texto que se escriba adentro */
 
 footer{
     position: fixed;
-    box-shadow: 0;
+    bottom: 0;
     background-color: aquamarine;
     width: 100%;
     padding: 10px;
-    height: 200px;
 }
 
 footer ul{
