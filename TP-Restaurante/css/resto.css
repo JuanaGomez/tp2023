@@ -327,3 +327,8 @@ footer a{
 footer a:hover{
     color: black;
 }
+
+footer .active{
+    color: black;
+    font-weight: 700;
+}
