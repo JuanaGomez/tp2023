@@ -378,8 +378,9 @@ header button{
     border-radius: 50%;
 }
 
-.img_plato{
-    
+.img_plato img{
+    object-fit: cover;
+    height: 100px;
 }
 
 .txt_plato{
