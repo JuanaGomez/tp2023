@@ -376,11 +376,13 @@ header button{
     width: 100px;
     background-color: aliceblue;
     border-radius: 50%;
+    overflow: hidden;
 }
 
 .img_plato img{
-    object-fit: cover;
+    object-fit: contain;
     height: 100px;
+    
 }
 
 .txt_plato{
