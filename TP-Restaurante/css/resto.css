@@ -94,6 +94,11 @@
     color: grey;
 }
 
+.sombra{
+    box-shadow: 0 0 15px -2px rgba(0, 0, 0, 0.596);
+    /* box-shadow:  ejex ejey blur distancia de sombra del elemento color; */
+}
+
 .portada {
     height: 350px;
     background-color: whitesmoke;
@@ -360,20 +365,22 @@ header button{
 }
 
 .item_carta{
-    background-color: wheat;
-    height: 120px;
+    background-color: white;
+    height: 100px;
     width: 100%;
-    gap: 10px;
+    gap: 15px;
 }
 
 .img_plato{
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
     background-color: aliceblue;
     border-radius: 50%;
 }
 
-
+.txt_plato{
+    gap: 20px;
+}
 
 
 
