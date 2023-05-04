@@ -51,16 +51,35 @@
     display: flex;
 }
 
+.fdcol{
+    flex-direction: column;
+}
+
 .sb {
     justify-content: space-around;
 }
 
 .ptext {
-    padding: 10px;
+    padding: 20px;
 }
 
 .center {
     text-align: center;
+}
+
+.centrar_h{
+    justify-content: center;
+}
+
+.centrar_v{
+    align-items: center;
+}
+
+.posrel{
+    position: relative;
+}
+.posab{
+    position: absolute;
 }
 
 .med {
@@ -332,3 +351,23 @@ footer .active{
     color: black;
     font-weight: 700;
 }
+
+header button{
+    left: 20px;
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
