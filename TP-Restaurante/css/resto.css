@@ -359,7 +359,19 @@ header button{
     cursor: pointer;
 }
 
+.item_carta{
+    background-color: wheat;
+    height: 120px;
+    width: 100%;
+    gap: 10px;
+}
 
+.img_plato{
+    height: 120px;
+    width: 120px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
 
 
 
