@@ -374,13 +374,11 @@ header button{
 .img_plato{
     height: 100px;
     width: 100px;
-    background-color: aliceblue;
     border-radius: 50%;
-    overflow: hidden;
 }
 
 .img_plato img{
-    object-fit: contain;
+    object-fit: cover;
     height: 100px;
     
 }
@@ -389,9 +387,19 @@ header button{
     gap: 20px;
 }
 
+.precio{
+    right: 0;
+    bottom: 0;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+}
 
-
-
+.circulo{
+    overflow: hidden;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+}
 
 
 
