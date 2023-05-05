@@ -55,6 +55,10 @@
     flex-direction: column;
 }
 
+.gap20{
+    gap: 20px;
+}
+
 .sb {
     justify-content: space-around;
 }
@@ -89,6 +93,9 @@
     font-size: 34pt!important;
 }
 
+.mgbot{
+    margin-bottom: 50px;
+}
 /* COLORES */
 .gristxt {
     color: grey;
@@ -366,9 +373,10 @@ header button{
 
 .item_carta{
     background-color: white;
-    height: 100px;
+    height: 140px;
     width: 100%;
     gap: 15px;
+    border-radius: 10px;
 }
 
 .img_plato{
@@ -388,11 +396,13 @@ header button{
 }
 
 .precio{
-    right: 0;
-    bottom: 0;
+    right: -10px;
+    bottom: 10px;
     background-color: aliceblue;
     padding: 5px;
     border-radius: 10px;
+    font-size: 10pt;
+    font-weight: 700;
 }
 
 .circulo{
