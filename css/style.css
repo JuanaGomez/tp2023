@@ -114,6 +114,11 @@ footer {
     margin-top: 10px;
 }
 
+.tarjeta .imagen img{
+    object-fit: cover;
+    height: 180px;
+    width: 100%;
+}
 
 /*--ACA VAN ESTAR LAS PROPIEDADES PARA QUE SE VEA LINDO EN EL CELU--*/
 @media screen and (max-width:992px) {
@@ -129,6 +134,7 @@ footer {
     }
 
 }
+
 
 
 
