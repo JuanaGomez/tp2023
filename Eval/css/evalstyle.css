@@ -265,8 +265,7 @@ footer .active{
     background-color: aqua;
 }
 
-
-.fila .tarjeta {
+.tarjeta {
     height: 230px;
     width: 40%;
     border-radius: 30px;

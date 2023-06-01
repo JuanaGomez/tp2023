@@ -80,7 +80,7 @@ footer {
     color: black;
     padding: 14px;
     position: relative;
-     box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.62);
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.62);
 }
 
 .tarjeta .imagen {
