@@ -6,7 +6,7 @@
 
 /*CONTENEDOR SCROLLBAR*/
 ::-webkit-scrollbar {
-    height: 5px;
+    height: 0px;
     /*scroll horizontal*/
     width: 2px;
     /*scroll vertical*/
@@ -33,6 +33,11 @@
     /*scroll cuando le hacen click*/
 }
 
+/* ACCION */
+.cursor{
+    cursor: pointer;
+}
+
 /*--TIPOGRAFIAS--*/
 .merri {
     font-family: 'Merriweather', serif;
@@ -57,8 +62,12 @@
     gap: 20px;
 }
 
-.sb {
+.sa {
     justify-content: space-around;
+}
+
+.sb{
+    justify-content: space-between;
 }
 
 .ptext {
