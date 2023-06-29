@@ -417,5 +417,32 @@ a {
     color: black;
 }
 
+/* COMIDA */
+.portada2 {
+    height: 350px;
+    background-color: whitesmoke;
+    color: aliceblue;
+    position: relative;
+    padding: 7%;
+    font-size: 18px;
+    /* imagen */
+    background-image: url(../img/Lasagna-Recipe-f.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
-
+.precio2 {
+    position: absolute;
+    height: 60px;
+    width: 78px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20pt;
+    background-color: rgb(165, 223, 203);
+    right: 60px;
+    bottom: -20px;
+    border-start-start-radius: 15px;
+    border-end-end-radius: 15px;
+}
