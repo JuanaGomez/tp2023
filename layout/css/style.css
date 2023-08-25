@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* menu {
+    height: 130px;
+    width: 75%;
+    max-width: 1920px;
+} */
+
+/* ORGANIZACION */
+.flex{
+    display: flex;
+}
+.jcenter{
+    justify-content: center;
+}
+.saround{
+    justify-content: space-around;
+}
+.centrar_v{
+    align-items: center;
+}
+
+/*  */
+
+section.encabezado {
+    height: 130px;
+    max-width: 1920px;
+}
+.secciones {
+    gap: 15px;
+}
+section.busqueda {
+    height: 130px;
+    max-width: 1920px;
+    background-color: violet;
+}
+.iconos {
+    gap: 15px;
+}
+
+.area_contenido{
+    max-width: 1398px;
+    height: auto;
+    width : 75%;
+    margin: auto;
+}
+.cuadrito {
+    width: 114px;
+    height: 35px;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
