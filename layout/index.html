@@ -11,45 +11,148 @@
     <title>Pag4</title>
 </head>
 <body>
-    <section class="encabezado flex saround centrar_v">
-        <div class="logo">
-            <h1>LOGO</h1>
+   <div class="encabezado flex saround centrar_v">
+        <div class="logo flex">
+            <img src="css/1- LOGO.png" alt="">
         </div>
         <div class="secciones flex sbetween">
-            <h3>categorias</h3>
-            <h3>salones</h3>
-            <h3>imagen</h3>
-            <h3>contacto</h3>
+                <li><a href="#"><h3>CATEGORIAS</h3></a></li>
+                <li><a href="#"><h3>SALONES</h3></a></li>
+                <li><a href="#"><h3>IMAGEN</h3></a></li>
+                <li><a href="#"><h3>CONTACTO</h3></a></li>
         </div>
-        <div class="empresa">
-            <li><span class="material-icons-outlined"></span>Empresas</li>
-        </div>
-    </section>
-    <section class="busqueda flex saround centrar_v">
-        <div class="iconos flex sbetween">
-            <li><span class="material-icons-outlined"></span></li>
-            <li><span class="material-icons-outlined"></span></li>
-            <li><span class="material-icons-outlined"></span></li>
-        </div>
-        <div class="barra flex">
-            <h3>NUEVA BUSQUEDA:</h3>
-            <input type="search" class="alkatra" placeholder="Buscar restaurante">
-            <input type="submit" class=" material-icons-outlined" value="search">
-        </div>
-    </section>
-
-    <div class="area_contenido">
-        <h4> HOME / ZONA NORTE GBA / RESULTADOS </h4>
-        <h2><b>H2</b> Encontramos las siguiente</h2>
-        <hr>
-        <li><span class="material-icons-outlined"></span>.cuerpo1 ESTANCIA (16 coincidencias)</li>
-        <hr>
-        <div class="cuadrito">
-            <li><span class="material-icons-outlined"></span></li>
-            <h5>H5 Plata</h5>
-            <li><span class="material-icons-outlined"></span></li>
+        <div class="empresa cuerpo1">
+            <span class="material-icons-outlined">login</span>
+            EMPRESAS
         </div>
     </div>
-    
+    <div class="busqueda flex saround centrar_v oro100">
+        <div class="iconos flex sbetween">
+            <span class="material-icons-outlined">emoji_objects</span>
+            <span class="material-icons-outlined">sell</span>
+            <span class="material-icons-outlined">event_available</span>
+        </div>
+        <div class="barra flex">
+            <h3>NUEVA BUSQUEDA</h3>
+            <form>
+                <select>
+                    <option>Zona ejemplo: San Miguel</option> 
+                </select>
+                <select>
+                    <option>¿Que estas buscando?</option>
+                </select>
+            </form>
+            <input type="submit" class=" material-icons-outlined" value="search">
+        </div>
+    </div>
+    <div class="area_contenido">
+        <h4> HOME / ZONA NORTE GBA / RESULTADOS </h4>
+        <h2>Encontramos las siguiente</h2>
+        <hr>
+        <div class="encontrado cuerpo1">
+            <span class="material-icons-outlined">check_circle</span>
+            ESTANCIA (16 coincidencias)
+        </div>
+        <hr>
+        <div class="cuadro flex">
+            <div class="cuadrito flex gris2 ">
+                <span class="material-icons-outlined">location_on</span>
+                <h5>Plata</h5>
+                <span class="material-icons-outlined">cancel</span>
+            </div>
+        </div>
+        <div class="contenedor flex">
+            <div class="filtro flex md-3">
+                <hr>
+                <h6><span class="material-icons-outlined cuerpo1">filter_alt</span>Filtros:</h6>
+                <div class="modulos flex cuerpo1">
+                    <div class="modulo">
+                        <span class="material-icons-outlined">local_bar</span>
+                        ...EVENTOS
+                        <span class="material-icons-outlined">arrow_drop_down</span>
+                    </div>
+                    <div class="modulo">
+                        <span class="material-icons-outlined">home</span>
+                        ...SALONES
+                        <span class="material-icons-outlined">arrow_drop_down</span>
+                    </div>
+                    <div class="modulo">
+                        <span class="material-icons-outlined">redeem</span>
+                        ...CAPACIDAD
+                        <span class="material-icons-outlined">arrow_drop_down</span>
+                    </div>
+                    <div class="radio flex">
+                        <div class="opcion">
+                            <span class="material-icons-outlined">radio_button_unchecked</span>Hasta 50 invitados
+                        </div>
+                        <div class="opcion">
+                            <span class="material-icons-outlined">radio_button_unchecked</span>51 a 100 invitados
+                        </div>
+                        <div class="opcion">
+                            <span class="material-icons-outlined">check_circle</span>100 a 200 invitados
+                        </div>
+                        <div class="opcion">
+                            <span class="material-icons-outlined">radio_button_unchecked</span>Mas de 200 invitados
+                        </div>
+                    </div>
+                    <div class="modulo">
+                        <span class="material-icons-outlined">schedule</span>
+                        ...HORARIOS
+                        <span class="material-icons-outlined">arrow_drop_down</span>
+                    </div>
+                    <div class="modulo">
+                        <span class="material-icons-outlined">attach_money</span>
+                        ...PROMOCIONES
+                        <span class="material-icons-outlined">arrow_drop_down</span>
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor_tarjetas">
+                <div class="tarjetas flex">
+                    <div class="contenido_tarjetas">
+                        <div class="lugar cuerpo2 white">
+                            <span class="material-icons-outlined">location_on</span>
+                            CARDALE,ZONA NORTE DEL GBA 
+                        </div>
+                        <div class="titulo_tarjeta white"><h2>Titulo</h2></div>
+                        <div class="descrip_tarjeta cuerpo1 white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae veniam laborum natus reiciendis aliquam est provident repudiandae amet .</div>
+                        <div class="botones">boton</div>
+                        <div class="descuento">descuento</div>
+                    </div>
+                    <div class="imagen_tarjeta">
+                        <img src="css/Restaurant_Näsinneula.jpg" alt="">
+                    </div>
+                </div>
+                <div class="tarjeta flex">
+                    <div class="contenido_tarjetas">
+                        <div class="lugar cuerpo2">
+                            <span class="material-icons-outlined">location_on</span>
+                            CARDALE,ZONA NORTE DEL GBA 
+                        </div>
+                        <div class="titulo_tarjeta"><h3>Titulo</h3></div>
+                        <div class="descrip_tarjeta cuerpo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae veniam laborum natus reiciendis aliquam est provident repudiandae amet .</div>
+                        <div class="botones">boton</div>
+                    </div>
+                    <div class="imagen_tarjeta">
+                        <img src="css/Restaurant_Näsinneula.jpg" alt="">
+                    </div>
+                </div>
+                <div class="tarjeta flex">
+                    <div class="contenido_tarjetas">
+                        <div class="lugar cuerpo2">
+                            <span class="material-icons-outlined">location_on</span>
+                            CARDALE,ZONA NORTE DEL GBA 
+                        </div>
+                        <div class="titulo_tarjeta"><h3>Titulo</h3></div>
+                        <div class="descrip_tarjeta cuerpo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae veniam laborum natus reiciendis aliquam est provident repudiandae amet .</div>
+                        <div class="botones">boton</div>
+                    </div>
+                    <div class="imagen_tarjeta">
+                        <img src="css/Restaurant_Näsinneula.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
