@@ -420,6 +420,65 @@ form {
 .contenedor_estancia.flex {
     gap: 20px;
 }
+.sub_estancia.cuerpo2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.info_cuadro {
+    margin: 1rem;
+}
 .titulo_portada {
     text-align: center;
+}
+.info_estancia {
+    display: flex;
+    gap: 50px;
+}
+.cuadro_estancia {
+    border: solid;
+    border-color:rgba(170,143,83,1);
+}
+.texto_demas {
+    margin-top: 10px;
+}
+.img_fotos{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img_lugar {
+    background-image: url(../css/Restaurant_Näsinneula.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 180px;
+    width: 180px;
+}
+.img_lugares {
+    box-shadow: inset 0 0 410px rgba(170,143,83,1);
+    background-image: url(../css/Restaurant_Näsinneula.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.img_ubi {
+    background-image: url(../css/ubi.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 310px;
+    margin: 30px;
+}
+
+.cuadro_color {
+    background-color: rgba(170,143,83,1);
+    height: 200px;
 }
