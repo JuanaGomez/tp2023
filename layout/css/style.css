@@ -293,3 +293,17 @@ h3 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.contenedor_footer.flex {
+    margin-top: 10px;
+}
+.categorias.flex {
+    gap: 95px;
+}
+.img_footer img {
+    height: 80px;
+    width: 65%;
+}
+.footer_contenedores {
+    width: 50%;
+    height: 230px;
+}
