@@ -401,3 +401,25 @@ form {
     align-items: center;
     justify-content: center;
 }
+
+.portada {
+    box-shadow: inset 0 0 410px rgba(170,143,83,1);
+    background-image: url(../css/Restaurant_Näsinneula.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #f1f1f1;
+    height: 465px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-bottom: 10px;
+}
+.contenedor_estancia.flex {
+    gap: 20px;
+}
+.titulo_portada {
+    text-align: center;
+}
