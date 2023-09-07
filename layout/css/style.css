@@ -195,6 +195,19 @@ h6{font-size: 12pt; font-weight: 700;/*bold*/ letter-spacing: 0px;}
     position: relative;
     border-radius: 20px 0 0 0;
 }
+.numeros {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    color: #f1f1f1;
+}
+.numeros h4 {
+    background-color:rgba(170,143,83,1);
+    height: 30px;
+    width: 30px;
+}
 .tarjeta.flex{
     height: 240px;
     justify-content: space-evenly;
@@ -238,6 +251,7 @@ h6{font-size: 12pt; font-weight: 700;/*bold*/ letter-spacing: 0px;}
 }
 .cotizar {
     background-color: gray;
+    color: #f1f1f1;
     height: 35px;
     width: 145px;
     display: flex;
@@ -340,6 +354,7 @@ h3 {
     justify-content: space-evenly;
     margin-top: 10px;
     margin-bottom: 10px;
+    gap: 20px;
 }
 .contenedor_footer.flex {
     margin-top: 10px;
@@ -348,22 +363,22 @@ h3 {
     gap: 95px;
 }
 .img_footer img {
-    height: 80px;
-    width: 65%;
+    height: 70px;
+    width: 70%;
 }
 .footer_contenedores {
     width: 50%;
     height: 230px;
 }
 .cosa {
-    transform: translate(10px, 79px);
+    transform: translate(10px, 50px);
 }
 input[type="text"] {
     width: 275px;
     height: 25px;
 }
 .redes_sociales {
-    transform: translate(10px, 120px);
+    transform: translate(10px, 70px);
 }
 select {
     height: 35px;
@@ -371,6 +386,11 @@ select {
 form {
     display: flex;
     align-items: center;
+}
+.texto {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .lupa span.material-icons-outlined {
     height: 40px;
