@@ -307,3 +307,9 @@ h3 {
     width: 50%;
     height: 230px;
 }
+.cosa {
+    transform: translate(10px, 79px);
+}
+.redes_sociales {
+    transform: translate(10px, 120px);
+}
