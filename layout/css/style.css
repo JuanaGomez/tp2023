@@ -488,6 +488,7 @@ form {
 }
 .contenido_estancia {
     margin-bottom: 25px;
+    width: 735px;
 }
 .titulo_contacto {
     display: flex;
@@ -505,4 +506,9 @@ form {
     gap: 10px;
     display: flex;
     align-items: center;
+}
+.cuadro_filtro.cuerpo1 {
+    background-color: skyblue;
+    height: 347px;
+    width: 270px;
 }
